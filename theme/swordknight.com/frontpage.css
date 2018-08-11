@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+#primary-cover { width: 100%; min-height: 40vw; background-image: url("img/skbc teachers be teachening.jpg"); background-size: 100% 40vw; background-repeat: no-repeat; clear: both; margin-top: 51px; color: white; text-align: center; }
+
+#primary-cover #logo { float: right; margin-top: 1vw; height: 20vw; margin-right: 5vh; display: inline-block; }
+
+#primary-cover form { display: table; float: left; margin-top: 20px; margin-left: 5vw; max-width: 320px; margin-bottom: 40px; clear: both; }
+
+#primary-cover form > div { display: table-row; }
+
+#primary-cover form > div > input, #primary-cover form > div > select { display: table-cell; width: 280px; padding: 8px; margin: 3px; box-sizing: border-box; border: 1px solid rgb(52, 116, 219); font-size: 0.8em; border-radius: 6px; opacity: 0.85; background-color: rgb(255, 255, 255); }
+
+#primary-cover form > div > input[type="submit"] { opacity: 1; font-weight: bold; text-align: center; background-color: rgb(52, 116, 219); line-height: 1.25em; font-size: 1em; color: white; }
+
+#primary-cover form > div > span { display: table-cell; max-width: 320px; padding: 3px; margin: 3px; box-sizing: border-box; }
+
+@media (max-width: 425px) {
+  #primary-cover { background-image: none; color: rgb(51, 51, 51); }
+  #primary-cover form { margin: 30px auto; width: 280px; }
+  #align-fix { margin: 0px auto; width: 280px; }
+}
