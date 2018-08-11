@@ -7,3 +7,4 @@ src/
 data/cache/
 data/other/logs/
 data/users/
+data/other/authorization.xml
