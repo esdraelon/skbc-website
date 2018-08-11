@@ -37,13 +37,14 @@
           </div>
         </div> 
         <div class="dropdown">
-          <button class="dropbtn">Classes
+          <button class="dropbtn">SKBC
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
             <a href="class-list">List</a>
             <a href="class-descriptions">Descriptions</a>
             <a href="class-registrations">Registrations</a>
+            <a href="instructors">Instructors</a>
           </div>
         </div> 
         <div class="dropdown">
