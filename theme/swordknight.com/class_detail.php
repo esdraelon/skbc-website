@@ -13,7 +13,7 @@ $class = Lib::$Lib->Classes->GetClass($_GET['class']);
 
 ?>
 		<div id='wrapper' style='margin-top: 120px;'>
-			<section class='information-section' style='margin: 60px auto; width: 70vw;'>
+			<section class='information-section'>
 			
 				<h2><?=$class['Name'] ?></h2>
         <?=message($message); ?>

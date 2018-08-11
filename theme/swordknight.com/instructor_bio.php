@@ -5,7 +5,7 @@ $bio = Lib::$Lib->Instructors->GetInstructor($_GET['instructor']);
 
 ?>
 		<div id='wrapper' style='margin-top: 120px;'>
-			<section class='information-section' style='margin: 60px auto; width: 70vw;'>
+			<section class='information-section'>
 			
 				<h2><?=$bio['Name'] ?></h2>
 <?php if (trimlen($bio['ImageUrl']) > 0) : ?>

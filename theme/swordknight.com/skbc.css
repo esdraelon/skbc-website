@@ -38,7 +38,7 @@ footer li { width: 20vw; margin: 0px; padding: 0px; list-style: none; }
 
 footer ul { float: left; margin: 2vh 5vw 0px 0px; display: inline-block; width: 20vw; }
 
-.information-section.information-page { width: 60vw; margin: 120px auto; text-align: justify; }
+.information-section { width: 60vw; margin: 120px auto; text-align: justify; }
 
 .information-section { min-height: 35vh; box-sizing: border-box; margin: 120px auto; width: 60vw; }
 
@@ -71,5 +71,6 @@ footer, #push { height: 200px; }
 @media (max-width: 425px) {
   .tabular-information td:nth-child(n+5), .tabular-information th:nth-child(n+5) { display: none; }
   .limited-display { display: none; }
-  .information-page.information-section, .information-section { width: 90vw; margin: 120px auto; text-align: justify; }
+  .information-section { width: 90vw; margin: 120px auto; text-align: justify; }
+  .tabular-data { width: 100%; }
 }

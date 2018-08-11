@@ -1,6 +1,6 @@
 <?php include_once('inc.header.php'); ?>
 		<div id='wrapper' style='margin-top: 120px;'>
-			<section class='information-section'>
+			<section class='information-section tabular-data'>
 			<style type='text/css'>
 				td.day, td.slot {
 					color: black;
