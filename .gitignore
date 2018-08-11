@@ -1,0 +1,6 @@
+.well-known
+admin/
+archive/
+backups/
+src/
+.env
