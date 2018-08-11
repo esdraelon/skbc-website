@@ -40,7 +40,7 @@ footer ul { float: left; margin: 2vh 5vw 0px 0px; display: inline-block; width: 
 
 .information-section.information-page { width: 60vw; margin: 120px auto; text-align: justify; }
 
-.information-section { min-height: 35vh; box-sizing: border-box; margin: 0px auto; width: 100%; }
+.information-section { min-height: 35vh; box-sizing: border-box; margin: 120px auto; width: 60vw; }
 
 .information-section .two-column-info { border-collapse: collapse; max-width: 80vw; margin: 5vw auto; }
 
@@ -71,5 +71,5 @@ footer, #push { height: 200px; }
 @media (max-width: 425px) {
   .tabular-information td:nth-child(n+5), .tabular-information th:nth-child(n+5) { display: none; }
   .limited-display { display: none; }
-  .information-page.information-section { width: 90vw; }
+  .information-page.information-section, .information-section { width: 90vw; margin: 120px auto; text-align: justify; }
 }
