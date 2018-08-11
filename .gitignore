@@ -4,3 +4,6 @@ archive/
 backups/
 src/
 .env
+data/cache/
+data/other/logs/
+data/users/
